@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html>
+<body>
+<!-- the paragraph that is going to be changed needs to have the id 'changing' -->
+<p id='changing'></p>
+
+<!-- jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- importing the script i wrote -->
+<script src='autochange_text.js'></script>
+
+<!-- using the script, with the list below, the default duration is 3 and it is a minimum
+because anything lower than that is too fast for the animation -->
+<script>
+    startChangingText(['lorem', 'ipsum', 'dolor', 'sit','amet'], 3)
+</script>
+
+</body>
+</html>
