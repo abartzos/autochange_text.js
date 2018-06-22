@@ -8,7 +8,7 @@ A js script that changes the text of an element automatically and uses a fading 
 
 <html>
 <body>
-<!-- the paragraph that is going to be changed needs to have the id 'changing' -->
+<!-- the element that is going to be changed needs to have the id 'changing' -->
 <p id='changing'></p>
 
 <!-- jquery needed -->
